@@ -33,7 +33,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FindSubstring.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FindSubstring.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DoublePointer/FindSubstring.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
@@ -41,6 +41,24 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IsValidSudoku.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/HashMap/IsValidSudoku.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SolveSudoku.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Backtracking/SolveSudoku.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1250">
+              <caret line="50" column="24" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -72,6 +90,8 @@
         <option value="$PROJECT_DIR$/src/HashMap/TwoSum.java" />
         <option value="$PROJECT_DIR$/src/DoublePointer/FourSum.java" />
         <option value="$PROJECT_DIR$/src/DoublePointer/FindSubstring.java" />
+        <option value="$PROJECT_DIR$/src/HashMap/IsValidSudoku.java" />
+        <option value="$PROJECT_DIR$/src/Backtracking/SolveSudoku.java" />
       </list>
     </option>
   </component>
@@ -201,12 +221,12 @@
       <updated>1564900539162</updated>
       <workItem from="1564900542763" duration="972000" />
       <workItem from="1564979359628" duration="2973000" />
-      <workItem from="1565052138945" duration="1740000" />
+      <workItem from="1565052138945" duration="4467000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5685000" />
+    <option name="totallyTimeSpent" value="8412000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="171" y="10" width="1669" height="1100" extended-state="0" />
@@ -293,6 +313,20 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HashMap/IsValidSudoku.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Backtracking/SolveSudoku.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1250">
+          <caret line="50" column="24" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
         </state>
       </provider>
     </entry>
