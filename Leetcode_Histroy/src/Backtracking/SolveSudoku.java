@@ -33,7 +33,7 @@ public class SolveSudoku {
                 return true;
             }
         }
-        //尝试在填空
+        //尝试填空
         if(board[row][col] == '.'){
             //尝试1~9的数字
             for(int i = 1; i < 10; i++){
