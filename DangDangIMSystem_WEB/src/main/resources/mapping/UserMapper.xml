@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.per.iroha.mapper.UserMapper">
+
+    <!--<resultMap id="BaseResultMap" type="com.per.iroha.model.User">-->
+        <!--<result column="userId" jdbcType="INTEGER" property="userId" />-->
+        <!--<result column="username" jdbcType="VARCHAR" property="username" />-->
+        <!--<result column="password" jdbcType="VARCHAR" property="password" />-->
+        <!--<result column="realName" jdbcType="VARCHAR" property="realName" />-->
+    <!--</resultMap>-->
+
+    <select id="findByUsername" parameterType="java.lang.String" resultType="com.per.iroha.model.User">
+        SELECT * FROM `user` WHERE username = #{username}
+    </select>
+
+    <select id="findByUserId" parameterType="int" resultType="com.per.iroha.model.User">
+        SELECT * FROM `user` WHERE userId = #{userId}
+    </select>
+
+    <insert id="userRegister" parameterType="com.per.iroha.model.User">
+        INSERT INTO `user`(username,realName,password) values(#{username},#{realName},#{password})
+    </insert>
+</mapper>
