@@ -1,4 +1,4 @@
-package List;
+package LinkedList;
 
 public class CopyRandomList_138 {
     class Node {
