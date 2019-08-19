@@ -3,6 +3,12 @@ package Stack;
 import java.util.Stack;
 
 public class DecodeString_394 {
+    /*394. 字符串解码*/
+    /*
+    两个栈分别存[]前的数字和之前的字符串;
+    遍历一遍输入的字符串，遇到数字和字符进行记录，遇到"["将之前的字符串和记录的数字压入栈;
+    遇到"]"弹出当前括号的数字N以及之前的字符串，将当前括号中的字符串重复N次接到之前字符串之后。
+     */
     public String decodeString(String s) {
         if(s.equals("")){
             return "";
